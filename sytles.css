@@ -39,3 +39,22 @@ body {
     cursor: pointer;
     transition: background-color 0.2s;
 }
+
+.buttons:hover{
+    background-color: beige;
+}
+
+.buttons:active{
+    background-color: aquamarine;
+}
+.AC {
+    grid-column: span;
+}
+
+.zero{
+    grid-column: span 2;
+}
+
+.sign {
+    background-color: #ef47ca;
+}
